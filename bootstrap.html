@@ -1,0 +1,282 @@
+<!doctype html>
+	<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+		<title>Hello, world!</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Navbar</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Dropdown
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="#">Something else here</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled">Disabled</a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/05/c7/91.jpg" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTswQlNRXJ6uugth1dZZ18diJDN9V67-b_ZBEb_-5u7DfB9BFuDxp8LcIJnndfj7Rp6aA&usqp=CAU" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="https://lifestyle.prod.content.iproperty.com/news/wp-content/uploads/sites/3/2019/11/12155702/main-image-1024x538.jpg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+		</div>
+		<div class="container mt-5">
+			<h1>Hello, world! <small>This is slogan for h1</small></h1>
+			<h2>This is subtitle 2 <small>This is slogan for subtitle 2</small></h2>
+			<h3>This is subtitle 3 <small>This is slogan for subtitle 3</small></h3>
+			<h4>This is subtitle 4 <small>This is slogan for subtitle 4</small></h4>
+			<h5>This is subtitle 5 <small>This is slogan for subtitle 5</small></h5>
+			<h6>This is subtitle 6 <small>This is slogan for subtitle 6</small></h6>
+
+			<p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit, sed do eiusmod</strong>
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<em>
+				quis nostrud exercitation</em> ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor <strike> in reprehenderit in </strike> voluptate <mark>velit esse</mark>
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Lorem ipsum dolor sit <strong>amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et do</strong>lore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris <em>nisi ut aliquip ex ea commodo</em>
+			consequat. Duis aute irure dolor <strike>in reprehenderit </strike>in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non <mark>
+			proident, sunt in culpa</mark> qui officia deserunt mollit anim id est laborum.</p>
+			<hr>
+			<p>Alignment</p>
+			<p>This is left align</p>
+			<p class="text-center">This is center align</p>
+			<p class="text-end">This is right align</p>
+			<hr>
+			<p class="text-primary">color1</p>
+			<p class="text-secondary">bolr2</p>
+			<p class="text-danger">color3</p>
+			<p class="bg-primary">color4</p>
+			<p class="bg-primary text-danger">this is combination</p>
+
+			<p>To restart your pc, you will type <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>del</kbd></p>
+			<p>lets have a <code>&lt;br/&gt;</code></p>
+
+			<button class="btn btn-primary btn-lg"> a button </button> 
+			<!--by default medium -->
+			<button class="btn btn-danger btn-sm"> a button </button>
+
+			<button class="btn btn-info" style="width: 100%;">full button</button>
+			<hr>
+
+			<form>
+				<div class="mb-3">
+					<label for="exampleInputName" class="form-label"><strong>Name</strong></label>
+					<input type="text" class="form-control" id="exampleInputName">
+				</div>
+				<div class="mb-3">
+					<label for="exampleInputEmail" class="form-label"><strong>Email</strong></label>
+					<input type="email" class="form-control" id="exampleInputEmail">
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div>
+
+				<div>
+					<label for="exampleFormControlTextarea1" class="form-label">Gender</label>
+					<select class="form-select form-select-sm" aria-label=".form-select-sm example">
+						<option selected>Select gender</option>
+						<option value="1">Male</option>
+						<option value="2">Female</option>
+					</select>
+				</div>
+
+				<div class="mb-3">
+					<label for="formFile" class="form-label">Upload file</label>
+					<input class="form-control" type="file" id="formFile">
+				</div>
+
+				<div class="mb-3 form-check">
+					<input type="checkbox" class="form-check-input" id="exampleCheck1">
+					<label class="form-check-label" for="exampleCheck1">Check me out</label>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+
+	<!--p - padding
+	m - margin
+	t - top
+	b - bottom
+	e - end (right)
+	s - start (left)
+	x - left right (horizontal)
+	y - up down (vertical) -->
+	<h2 class="mt-2">m/p x-y t/b/s/e</h2>
+	<p class="my-5">test margin padding shortcut</p>
+	<p class="ms-5">test margin padding shortcut</p>
+
+	<!-- Table-->
+	<table class="table table-borderes table-striped table-hover">
+		<thead>
+			<tr class="bg-primary text-light">
+				<th>Name</th>
+				<th>Email</th>
+				<th>Company</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>muzaf</td>
+				<td>wan@gmail</td>
+				<td>abc entr</td>
+			</tr>
+			<td>john</td>
+			<td>john@gmail</td>
+			<td>fed entr</td>
+		</tr>
+	</tbody>
+</table>
+<h2>bootsrap grid system</h2>
+<div class="row">
+	<div class="col-6">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+	<div class="col-6">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+</div>
+<div class="row mt-5">
+	<div class="col-4">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+	<div class="col-4">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+	<div class="col-4">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+<div class="row text-center mt-5">
+	<div class="col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	<div class="col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	<div class="col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	<div class="col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	<div class="col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	<div class="col-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+<div class="row mt-5">
+	<div class="col-3">
+					<img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/05/c7/91.jpg" alt="..." class="img-fluid">
+	</div>
+	<div class="col-9">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</div>
+<hr>
+</div>
+</div>
+</div>
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+-->
+</body>
+</html>
